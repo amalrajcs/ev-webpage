@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react"
+import "./App.css";
 import Background from "./Components/Background/Background";
 import Navbar from "./Components/NavBar/Navbar";
 import Hero from "./Components/Hero/Hero";
@@ -19,13 +20,13 @@ const App = () => {
   },[])
 
   return (
-    <div>
+    <div className="app">
       <Background playStatus={playStatus} heroCount={heroCount}/>
       <Navbar/>
       <Hero 
       playStatus={playStatus}
       setPlayStatus={setPlayStatus}
-      heroCount={setHeroCount}
+      heroCount={heroCount}
       setHeroCount={setHeroCount}
       heroData={heroData[heroCount]}
             />

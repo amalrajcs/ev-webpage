@@ -36,14 +36,15 @@
     gap: 23px;
     list-style: none;
 }
-.hero-dot{
+.hero-dot {
     width: 15px;
     height: 15px;
     background: #FFF;
-    border-radius: 7.5px;
+    border-radius: 50%;
     cursor: pointer;
 }
-.hero-dot.orange{
+
+.hero-dot.orange {
     background: orangered;
 }
 .hero-play{
