@@ -6,16 +6,18 @@
   color: white;
 }
 .nav-logo {
+  margin-left: -50px;
   font-family: Outfit;
-  font-size: 42px;
+  font-size: 25px;
   font-weight: 500;
 }
 .nav-menu {
   display: flex;
+  margin-right: -60px;
   align-items: center;
   list-style: none;
-  font-size: 18px;
-  gap: 90px;
+  font-size: 15px;
+  gap: 70px;
   cursor: pointer;
 }
 .nav-contact {
